@@ -1,0 +1,6 @@
+Incident_Id,Incident_Type,Incident_Date,Description
+INC-001,Theft,2022-01-15,Stolen wallet on the bus
+INC-002,Accident,2022-02-10,Car collision on the highway
+INC-003,Fire,2022-03-03,House fire caused by faulty wiring
+INC-004,Theft,2022-03-05,Burglary at a retail store
+INC-005,Accident,2022-03-10,Bicycle collision on the street

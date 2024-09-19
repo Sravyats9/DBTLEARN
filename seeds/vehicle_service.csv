@@ -1,0 +1,6 @@
+Department_Name,Vehicle_Service_Company_Name,Vehicle_Service_Address,Vehicle_Service_Contact,Vehicle_Service_Incharge,Vehicle_Service_Type,Department_Id,Company_Name
+Mechanical,Mechanic1,123 Main St,555-1234,John Smith,Repair,D1,Company1
+Mechanical,Mechanic2,456 Elm St,555-5678,Jane Doe,Maintenance,D1,Company1
+Body Shop,AutoBody1,789 Oak St,555-9012,Bob Johnson,Repair,D2,Company1
+Body Shop,AutoBody2,321 Maple St,555-3456,Mary Brown,Painting,D2,Company1
+Parts,Parts1,654 Pine St,555-7890,Tom Jones,Sales,D3,Company2
