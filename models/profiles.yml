@@ -1,0 +1,18 @@
+analytics:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: <hp91641.south-central-us.azure>
+      user: <SRAVYATS94>
+      password: <Abroadismydream.9>
+      role: <ACCOUNTADMIN>
+      database: <ANALYTICS>
+      warehouse: <TRANSFORMING>
+      schema: <insurance>
+      authenticator: "snowflake"
+      threads: 6
+      client_session_keep_alive: True
+      query_tag: dbt
+      
+

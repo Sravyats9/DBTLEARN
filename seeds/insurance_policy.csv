@@ -1,0 +1,6 @@
+Agreement_id,Department_Name,Policy_Number,Start_Date,Expiry_Date,Term_Condition_Description,Application_Id,Cust_Id
+POL-1001,Claims,PLC001,2022-01-01,2023-01-01,This policy covers the loss of personal belongings in the event of theft or damage.,APP001,C001
+POL-1002,Underwriting,PLC002,2022-01-15,2023-01-15,This policy covers the medical expenses of the policy holder in case of an accident or illness.,APP002,C002
+POL-1003,Sales,PLC003,2022-02-01,2023-02-01,This policy covers the damage to the insured vehicle in case of an accident or natural calamity.,APP003,C003
+POL-1004,Claims,PLC004,2022-03-01,2023-03-01,This policy covers the loss of income due to disability caused by an accident or illness.,APP004,C004
+POL-1005,Underwriting,PLC005,2022-03-15,2023-03-15,This policy covers the expenses incurred due to the damage caused by fire or natural calamity.,APP005,C005

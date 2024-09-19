@@ -1,0 +1,32 @@
+
+version: 2
+models:
+  - name: customers
+    description: "Insurance model"
+    columns:
+      - name: Cust_Id
+        description: "Customer ID"
+      - name: Cust_FName
+        description: "Customer first name"
+      - name: Cust_LName
+        description: "Customer last name"
+      - name: Cust_DOB
+        description: "Customer date of birth"
+      - name: Cust_Gender
+        description: "Customer gender"
+      - name: Cust_Address
+        description: "Customer address"
+      - name: Cust_MOB_Number
+        description: "Customer mobile number"
+      - name: Cust_Email
+        description: "Customer email"
+      - name: Cust_Passport_Number
+        description: "Customer passport number"
+      - name: Cust_Marital_Status
+        description: "Customer marital status"
+      
+
+    meta:
+      table: CUSTOMER
+
+
