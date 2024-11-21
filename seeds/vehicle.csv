@@ -1,0 +1,6 @@
+Vehicle_Id,Policy_Id ,Dependent_NOK_Id ,Vehicle_Registration_Number, Vehicle_Value,Vehicle_Type,Vehicle_Size,Vehicle_Number_Of_Seat,Vehicle_Manufacturer,Vehicle_Engine_Number,Vehicle_Chasis_Number,Vehicle_Number,Vehicle_Model_Number,Cust_Id
+V001,PLC1,DN1,KLMNO1234P,500000,Car,5,5,Toyota,1234567890,123456789,KL-01-1234,Corolla,C1
+V002,PLC2,DN2,PQRST5678Q,800000,SUV,7,7,Ford,0987654321,987654321,KL-02-5678,Explorer,C2
+V003,PLC3,DN3,UVWXY9012U,600000,Car,5,5,Honda,2468101214,121416182,KL-03-9012,Accord,C3
+V004,PLC4,DN4,ABCDE5678A,1000000,Luxury Car,5,4,Mercedes-Benz,369121518,151821243,KL-04-5678,S-Class,C4
+V005,PLC5,DN5,FGHIJ1234F,750000,SUV,7,7,Jeep,5678123456,123456789,KL-05-1234,Grand Cherokee,C5
