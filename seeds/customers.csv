@@ -1,0 +1,10 @@
+Cust_Id,Cust_FName,Cust_LName,Cust_DOB,Cust_Gender,Cust_Address,Cust_MOB_Number,Cust_Email,Cust_Passport_Number,Cust_Marital_Status
+C001,John,Doe,1990-05-15,M,123 Main St,1234567890,johndoe@example.com,ABC12345,Single
+C002,Jane,Smith,1985-12-10,F,456 Maple Ave,9876543210,janesmith@example.com,DEF67890,Married
+C003,Bob,Johnson,1978-09-20,M,789 Oak Blvd,2345678901,bobjohnson@example.com,AB09887,Single
+C004,Emily,Davis,1999-07-03,F,321 Elm St,3456789012,emilydavis@example.com,GHI12345,Single
+C005,Alex,Brown,1995-02-28,M,543 Cedar Ln,4567890123,alexbrown@example.com,,Married
+c006,Boomer,Avani,2023-04-12,M,4909 Cedar st,9653654789,boomer@yahoo.com,Comitted
+c008,Sneha,Braum,2020-02-15,F,NA,5698456987,Sneha@abc.com,Single
+c009, abc,ghd,2020-04-15,M,67yhs,565987652,abc@gmail.com,Single
+c010,sri,faria,2019-05-12,F,na,8649654133,qwe@abc.com,Fg45669,committed
