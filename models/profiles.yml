@@ -1,18 +1,34 @@
 analytics:
-  target: dev
+  
+  target: 
+    - dev
+    - prod
   outputs:
     dev:
       type: snowflake
-      account: <hp91641.south-central-us.azure>
-      user: <SRAVYATS94>
-      password: <Abroadismydream.9>
-      role: <ACCOUNTADMIN>
-      database: <ANALYTICS>
-      warehouse: <TRANSFORMING>
-      schema: <insurance>
-      authenticator: "snowflake"
+      account: <wf63816.us-east-2.aws>
+      user: Sravyasekhar
+      password: Jobismydream.9
+      role: ACCOUNTADMIN
+      database: ANALYTICS
+      warehouse: TRANSFORMING
+      schema: dbt_sravyats94
       threads: 6
       client_session_keep_alive: True
       query_tag: dbt
-      
+      authenticator: externalbrowser
 
+    prod:
+      type: snowflake
+      account: <wf63816.us-east-2.aws>
+      user: Sravyasekhar
+      password: Jobismydream.9
+      role: ACCOUNTADMIN
+      database: ANALYTICS
+      warehouse: TRANSFORMING
+      schema: dbt_sravyats94
+      threads: 6
+      client_session_keep_alive: True
+      query_tag: dbt
+      authenticator: externalbrowser
+  

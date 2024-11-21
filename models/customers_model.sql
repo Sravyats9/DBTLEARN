@@ -3,7 +3,7 @@
         materialized='incremental',   
         schema='dbt_sravyats94', 
         alias='customers_model',
-        merge_exclude_columns = ['created_dtm']
+        merge_exclude_columns = ['created_at','updated_dtm']
 
 ) 
     
@@ -24,7 +24,7 @@
         CASE 
             WHEN {{ is_incremental() }} THEN NULL -- Ensure `created_dtm` remains unchanged on updates
             ELSE getdate() -- Set `created_dtm` only for new records
-        END AS created_dtm,
+        END AS created_at,
         getdate() AS updated_dtm -- Using CURRENT_TIMESTAMP() for both full and incremental loads
     FROM {{ ref('customers') }}
 
@@ -36,9 +36,4 @@
 
     {% endif %}
 
-    
 
-
-
-       
-  
